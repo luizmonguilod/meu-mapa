@@ -1,0 +1,14 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#071912"><link rel="manifest" href="/static/manifest.webmanifest"><link rel="apple-touch-icon" href="/static/icon-192.png"><link rel="stylesheet" href="/static/style.css"><title>Meu Mapa</title></head>
+<body><main class="shell">
+<header class="hero"><div><p class="eyebrow">NUMEROLOGIA + ASTROLOGIA</p><h1>Meu Mapa</h1><p id="todayLabel">Seu momento</p></div><img src="/static/avatar.png" alt="Avatar de Luiz" class="avatar"></header>
+<section class="datebar"><button id="prev">‹</button><input id="datePicker" type="date"><button id="next">›</button></section>
+<section class="card profile"><div><strong>Luiz Augusto Pereira Monguilod</strong><span>07/10/1968 · 02:30 · Lençóis Paulista/SP</span></div><span class="pill">Tropical · Placidus</span></section>
+<section class="numbers"><article><span>ANO</span><b id="yearNum">–</b><small id="yearTheme">–</small></article><article><span>MÊS</span><b id="monthNum">–</b><small id="monthTheme">–</small></article><article><span>DIA</span><b id="dayNum">–</b><small id="dayTheme">–</small></article></section>
+<section class="card emphasis"><p class="eyebrow">SÍNTESE DO DIA</p><h2 id="headline">Carregando…</h2><p id="summary"></p></section>
+<section class="grid"><article class="card"><h3>Potencial</h3><p id="potential"></p></article><article class="card"><h3>Atenção</h3><p id="attention"></p></article><article class="card"><h3>Ação</h3><p id="action"></p></article><article class="card"><h3>Pergunta</h3><p id="question"></p></article></section>
+<section class="card"><div class="section-head"><div><p class="eyebrow">ASTROLOGIA</p><h2>Trânsitos relevantes</h2></div><span id="transitTime" class="muted"></span></div><div id="aspects" class="list"></div></section>
+<section class="card"><p class="eyebrow">MAPA NATAL</p><h2>Seus pilares astrológicos</h2><div id="natal" class="natal-grid"></div></section>
+<section class="card"><p class="eyebrow">DATAS-CHAVE</p><h2>Janelas numerológicas do mês</h2><div id="keys" class="chips"></div></section>
+<section class="card"><p class="eyebrow">MAPA NUMEROLÓGICO</p><h2>Números de base</h2><div id="baseNumbers" class="natal-grid"></div></section>
+<p class="disclaimer">Leituras simbólicas e reflexivas. Não substituem aconselhamento médico, jurídico, financeiro ou decisões baseadas em evidências.</p>
+</main><script src="/static/app.js"></script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}</script></body></html>
